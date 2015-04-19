@@ -2,7 +2,7 @@ branches:
   only:
     - master
 
-version: 0.1.0.{build}-prealpha
+version: 0.1.{build}-prealpha
 
 init:
   - git config --global core.autocrlf input
