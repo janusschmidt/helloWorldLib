@@ -15,6 +15,9 @@ assembly_info:
 
 configuration: Release
 
+build:
+  publish_nuget: true             # package projects with .nuspec files and push to artifacts
+
 deploy:
   - provider: NuGet
     api_key:
