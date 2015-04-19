@@ -4,7 +4,7 @@
     {
         public string HelloWorldLib(string name)
         {
-            return "Hello " + name;
+            return "Hello mister:" + name;
         }
     }
 }
