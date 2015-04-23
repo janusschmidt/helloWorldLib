@@ -13,5 +13,7 @@
   </metadata>
   <files>
     <file src="bin\$configuration$\$id$.dll" target="lib\net40\" />
+    <file src="bin\$configuration$\$id$.pdb" target="lib\net40\" />
+    <file src="**\*.cs" target="src" />
   </files>
 </package>
