@@ -12,11 +12,7 @@ assembly_info:
   file: AssemblyInfo.*
   assembly_version: "{version}"
   assembly_file_version: "{version}"
-  assembly_informational_version: "{version}"
-
-nuget:
-  account_feed: true
-  project_feed: true
+  assembly_informational_version: "{version}" #Remember to add [assembly: AssemblyInformationalVersion("")] in assemblyinfo.cs
 
 configuration: Debug
 
