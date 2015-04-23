@@ -11,9 +11,4 @@
     <releaseNotes>Simple library to test how nuget and appveyor works.</releaseNotes>
     <copyright>Copyright 2015</copyright>
   </metadata>
-  <files>
-    <file src="bin\$configuration$\$id$.dll" target="lib\net40\" />
-    <file src="bin\$configuration$\$id$.pdb" target="lib\net40\" />
-    <file src="**\*.cs" target="src" />
-  </files>
 </package>
